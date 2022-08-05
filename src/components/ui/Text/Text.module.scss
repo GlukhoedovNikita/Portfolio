@@ -1,0 +1,25 @@
+@import "@styles/variables";
+
+.container {
+	display: block;
+}
+
+.big {
+	font-size: 127px;
+	line-height: 154px;
+}
+
+.medium {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+.small {
+	font-size: 18px;
+	line-height: 140%;
+}
+
+.white {
+	color: $color-white;
+}

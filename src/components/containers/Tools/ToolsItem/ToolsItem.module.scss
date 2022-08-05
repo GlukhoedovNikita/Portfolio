@@ -1,0 +1,55 @@
+@import "@styles/variables";
+
+.container {
+	cursor: pointer;
+
+	display: grid;
+	align-content: center;
+	justify-content: center;
+
+	width: 160px;
+	height: 160px;
+
+	border-radius: 100%;
+}
+
+.click {
+	position: relative;
+	z-index: 5;
+}
+
+.js {
+	background-color: $color-js;
+}
+
+.ts {
+	background-color: $color-ts;
+}
+
+.react {
+	background-color: $color-react;
+}
+
+.redux {
+	background-color: $color-redux;
+}
+
+.webpack {
+	background-color: $color-webpack;
+}
+
+.nodejs {
+	background-color: $color-nodejs;
+}
+
+.html {
+	background-color: $color-html;
+}
+
+.scss {
+	background-color: $color-scss;
+}
+
+.git {
+	background-color: $color-git;
+}

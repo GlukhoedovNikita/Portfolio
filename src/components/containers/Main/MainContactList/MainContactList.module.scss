@@ -1,0 +1,19 @@
+@import "@styles/variables";
+
+.container {
+	z-index: 10;
+
+	display: grid;
+	grid-area: contacts;
+	justify-items: flex-end;
+
+	width: 100%;
+	height: 100%;
+
+	color: $color-white;
+
+	.canvas {
+		width: 100%;
+		height: 100%;
+	}
+}

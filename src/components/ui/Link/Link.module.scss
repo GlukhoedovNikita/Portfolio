@@ -1,0 +1,28 @@
+@import "@styles/variables";
+
+.container {
+	cursor: pointer;
+
+	display: block;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+
+	width: 110px;
+	height: 110px;
+
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	color: $color-purple-ligth;
+
+	background-color: $color-white;
+	border-radius: 30px;
+}
+
+.active {
+	color: $color-white;
+
+	background-color: $color-purple;
+	border: 10px solid $color-purple-dark;
+}

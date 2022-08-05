@@ -1,0 +1,23 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap";
+
+@import "@styles/normalize";
+
+@import "@styles/variables";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	font-family: Inter, sans-serif;
+	font-weight: 300;
+	color: $color-white;
+}
+
+a {
+	color: $color-black;
+	text-decoration: none;
+}
