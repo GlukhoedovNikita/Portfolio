@@ -1,0 +1,14 @@
+.container {
+	z-index: 10;
+
+	overflow-y: auto;
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	align-content: flex-start;
+
+	max-height: 100vh;
+
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+}

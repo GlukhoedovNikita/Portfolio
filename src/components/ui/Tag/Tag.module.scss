@@ -1,0 +1,20 @@
+@import "@styles/variables";
+
+.container {
+	display: grid;
+	align-content: center;
+	justify-content: center;
+
+	padding: 10px;
+
+	background-color: $color-blue;
+	border: 1px solid $color-blue;
+	border-radius: 20px;
+
+	transition: all 0.3s ease-in-out;
+
+	&:hover {
+		background-color: $color-blue-dark;
+		border-radius: 15px;
+	}
+}

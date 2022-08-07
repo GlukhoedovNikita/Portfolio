@@ -1,0 +1,37 @@
+.container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: flex-start;
+
+	.blockContent {
+		display: grid;
+		gap: 14px 0;
+		align-content: flex-start;
+
+		padding: 30px;
+
+		.blockTags {
+			display: grid;
+			grid-template-columns: repeat(3, auto);
+			gap: 10px 20px;
+		}
+
+		.blockLink {
+			display: grid;
+			grid-template-columns: repeat(2, 100px);
+			align-content: flex-start;
+		}
+	}
+}
+
+.reverse {
+	.blockImage {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+	}
+
+	.blockContent {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+}

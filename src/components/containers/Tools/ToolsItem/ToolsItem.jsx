@@ -2,6 +2,8 @@ import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import cn from 'classnames'
 
+import Image from '@components/ui/Image/Image'
+
 import styles from './ToolsItem.module.scss'
 
 const ToolsItem = ({
@@ -45,12 +47,7 @@ const ToolsItem = ({
             })}
             {...props}
         >
-            <img
-                src={image}
-                alt={alt}
-                width={80}
-                height={80}
-            />
+            <Image image={image} alt={alt} size="medium" />
         </motion.div>
     )
 }

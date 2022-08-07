@@ -3,11 +3,11 @@ import { useFrame } from '@react-three/fiber'
 
 import PlanetItem from '../PlanetItem/PlanetItem'
 
-import frameContact from '@utils/frameContact'
+import frame from '@utils/frame'
 
 const PlanetList = (props) => {
     const ref = useRef()
-    useFrame(({ clock }) => frameContact(ref, clock))
+    useFrame(({ clock }) => frame(ref, clock))
     return (
         <group ref={ref} {...props}>
             <PlanetItem position={[0, 0, 0]} scale={2.3} />

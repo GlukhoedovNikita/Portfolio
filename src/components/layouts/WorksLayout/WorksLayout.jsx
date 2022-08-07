@@ -4,14 +4,14 @@ import CommonLayout from '../CommonLayout/CommonLayout'
 import Stars from '@components/common/Stars/Stars'
 import Sidebar from '@components/common/Sidebar/Sidebar'
 
-import styles from './ToolsLayout.module.scss'
+import styles from './WorksLayout.module.scss'
 
 const variants = {
     initial: { opacity: 0, y: -1000, transition: { ease: [0.35, 0.82, 0.265, 1], duration: 1.2 } },
     animate: { opacity: 1, y: 0, transition: { ease: [0.35, 0.82, 0.265, 1], duration: 1.2 } },
 }
 
-const ToolsLayout = ({ className, children, ...props }) => {
+const WorksLayout = ({ children, ...props }) => {
     return (
         <CommonLayout>
             <motion.div
@@ -31,4 +31,4 @@ const ToolsLayout = ({ className, children, ...props }) => {
     )
 }
 
-export default ToolsLayout
+export default WorksLayout

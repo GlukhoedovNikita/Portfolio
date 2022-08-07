@@ -9,7 +9,7 @@
 	],
 	"rules": {
 		"at-rule-no-unknown": null,
-        "selector-class-pattern": ".[a-zA-Z]",
+        "selector-class-pattern": ".[a-zA-Z1-9]",
         "scss/at-rule-no-unknown": true,
         "indentation": "tab",
         "color-hex-case": "lower",

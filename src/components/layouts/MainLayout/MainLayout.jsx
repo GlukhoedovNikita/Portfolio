@@ -2,8 +2,9 @@ import { motion } from 'framer-motion'
 
 import CommonLayout from '../CommonLayout/CommonLayout'
 import Sidebar from '@components/common/Sidebar/Sidebar'
-import Planet from '@components/common/Planet/Planet'
 import MainContactList from '@components/containers/Main/MainContactList/MainContactList'
+import Planet from '@components/common/Planet/Planet'
+import Stars from '@components/common/Stars/Stars'
 
 import styles from './MainLayout.module.scss'
 
@@ -29,6 +30,7 @@ const MainLayout = ({ children, ...props }) => {
                 <MainContactList />
             </motion.div>
             <Planet />
+            <Stars />
         </CommonLayout>
     )
 }
