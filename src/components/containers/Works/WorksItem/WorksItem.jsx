@@ -1,14 +1,11 @@
 import cn from 'classnames'
 
-import WorksLinkList from '../WorksLinkList/WorksLinkList'
-import Image from '@components/ui/Image/Image'
-import Tag from '@components/ui/Tag/Tag'
-import Text from '@components/ui/Text/Text'
+import { WorksLinkList } from '@components/containers'
+import { Image, Tag, Text } from '@components/ui'
 
 import styles from './WorksItem.module.scss'
 
-import githubImg from '@assets/img/github.jpg'
-import viewImg from '@assets/img/view.jpg'
+import { githubImg } from '@assets/img'
 
 const WorksItem = ({
     title,
@@ -26,10 +23,10 @@ const WorksItem = ({
             {...props}
         >
             <div className={styles.blockImage}>
-                <Image image={image} alt="" size="big" />
+                <Image className={styles.image} image={image} alt="" size="big" />
             </div>
             <div className={styles.blockContent}>
-                <Text text={title} size="h2" />
+                <Text className={styles.title} text={title} size="h2" />
                 <div className={styles.blockTags}>
                     {
                         tags.map((tag) => <Tag key={tag} text={tag} />)
@@ -37,7 +34,6 @@ const WorksItem = ({
                 </div>
                 <div className={styles.blockLink}>
                     <WorksLinkList name={title.toLowerCase()} type="github" image={githubImg} />
-                    <WorksLinkList name={title.toLowerCase()} type="view" image={viewImg} />
                 </div>
             </div>
         </div>

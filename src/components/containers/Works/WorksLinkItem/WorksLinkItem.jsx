@@ -3,8 +3,7 @@ import { useFrame, useLoader } from '@react-three/fiber'
 import { TextureLoader } from 'three/src/loaders/TextureLoader'
 import { motion } from 'framer-motion-3d'
 
-import frame from '@utils/frame'
-import redirectWorks from '@utils/redirectWorks'
+import { frame, redirectWorks } from '@utils/index'
 
 const variants = {
     variantHover: { scale: 1.2, transition: { type: 'spring', duration: 0.3 } },

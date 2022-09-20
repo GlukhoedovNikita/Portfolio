@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import cn from 'classnames'
 
-import Image from '@components/ui/Image/Image'
+import { Image } from '@components/ui'
 
 import styles from './ToolsItem.module.scss'
 
@@ -47,7 +47,7 @@ const ToolsItem = ({
             })}
             {...props}
         >
-            <Image image={image} alt={alt} size="medium" />
+            <Image className={styles.image} image={image} alt={alt} size="medium" />
         </motion.div>
     )
 }

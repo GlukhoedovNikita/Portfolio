@@ -3,8 +3,7 @@
 import { useMemo, useRef } from 'react'
 import { useFrame } from '@react-three/fiber'
 
-import generateArrayStars from '@utils/generateArrayStars'
-import frame from '@utils/frame'
+import { frame, generateArrayStars } from '@utils/index'
 
 const StarsList = () => {
     const coords = useMemo(() => generateArrayStars(), [])

@@ -1,18 +1,18 @@
 import { useMemo } from 'react'
 
-import WorksItem from '../WorksItem/WorksItem'
+import { WorksItem } from '@components/containers'
 
 import worksItemsArray from '@constants/works.constants'
 
 import styles from './WorksList.module.scss'
 
 const WorksList = () => {
-    const worksArray = useMemo(() => worksItemsArray, [])
+    const memoWorksItemsArray = useMemo(() => worksItemsArray, [])
 
     return (
         <div className={styles.container}>
             {
-                worksArray.map((value, i) => {
+                memoWorksItemsArray.map((value, i) => {
                     if (i % 2 !== 0) {
                         return <WorksItem
                             key={value.title}

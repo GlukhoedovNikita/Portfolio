@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import cn from 'classnames'
 
-import WorksLinkItem from '../WorksLinkItem/WorksLinkItem'
+import { WorksLinkItem } from '@components/containers'
 
 import styles from './WorksLinkList.module.scss'
 

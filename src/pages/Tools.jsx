@@ -1,5 +1,5 @@
-import ToolsList from '@components/containers/Tools/ToolsList/ToolsList'
-import ToolsLayout from '@components/layouts/ToolsLayout/ToolsLayout'
+import { ToolsLayout } from '@components/layouts'
+import { ToolsList } from '@components/containers'
 
 const Tools = () => {
     return (

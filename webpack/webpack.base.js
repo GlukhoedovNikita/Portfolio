@@ -10,6 +10,7 @@ export default {
         path: pathResolve('dist'),
         filename: isDev ? '[name].js' : '[name].[contenthash].js',
         clean: true,
+        publicPath: '/'
     },
     module: {
         rules: [

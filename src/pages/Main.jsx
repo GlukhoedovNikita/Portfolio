@@ -1,5 +1,5 @@
-import MainLayout from '@components/layouts/MainLayout/MainLayout'
-import MainTitle from '@components/containers/Main/MainTitle/MainTitle'
+import { MainLayout } from '@components/layouts'
+import { MainTitle } from '@components/containers'
 
 const Main = () => {
     return (

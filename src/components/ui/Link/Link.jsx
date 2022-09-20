@@ -1,6 +1,6 @@
-import cn from 'classnames'
 import { NavLink } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import cn from 'classnames'
 
 import styles from './Link.module.scss'
 

@@ -1,11 +1,10 @@
 import { Canvas } from '@react-three/fiber'
 
-import MainContact from '../MainContact/MainContact'
+import { MainContact } from '@components/containers'
 
 import styles from './MainContactList.module.scss'
 
-import githubImg from '@assets/img/github.jpg'
-import telegramImg from '@assets/img/telegram.jpg'
+import { githubImg, telegramImg } from '@assets/img'
 
 const MainContactList = () => {
     return (

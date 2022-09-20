@@ -17,3 +17,14 @@
 		grid-area: body;
 	}
 }
+
+@media (max-width: 767.98px) {
+	.container {
+		grid-template-areas:
+			"sidebar"
+			"body";
+		grid-template-columns: 1fr;
+		align-content: center;
+		gap: 15% 0;
+	}
+}

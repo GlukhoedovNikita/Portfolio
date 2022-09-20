@@ -3,7 +3,7 @@ import { useFrame } from '@react-three/fiber'
 
 import PlanetItem from '../PlanetItem/PlanetItem'
 
-import frame from '@utils/frame'
+import { frame } from '@utils/index'
 
 const PlanetList = (props) => {
     const ref = useRef()

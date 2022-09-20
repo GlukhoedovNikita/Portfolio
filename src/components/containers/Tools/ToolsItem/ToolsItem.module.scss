@@ -53,3 +53,40 @@
 .git {
 	background-color: $color-git;
 }
+
+
+@media (max-width: 1199.98px) {
+	.container {
+		width: 120px;
+		height: 120px;
+
+		.image {
+			width: 60px;
+			height: 60px;
+		}
+	}
+}
+
+@media (max-width: 991.98px) {
+	.container {
+		width: 85px;
+		height: 85px;
+
+		.image {
+			width: 40px;
+			height: 40px;
+		}
+	}
+}
+
+@media (max-width: 575.98px) {
+	.container {
+		width: 63px;
+		height: 63px;
+
+		.image {
+			width: 30px;
+			height: 30px;
+		}
+	}
+}

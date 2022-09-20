@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion'
 
-import CommonLayout from '../CommonLayout/CommonLayout'
-import Stars from '@components/common/Stars/Stars'
-import Sidebar from '@components/common/Sidebar/Sidebar'
+import { CommonLayout } from '@components/layouts'
+import { Stars, Sidebar } from '@components/common'
 
 import styles from './ToolsLayout.module.scss'
 

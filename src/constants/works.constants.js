@@ -1,20 +1,20 @@
-import img from '@assets/img/work.jpg'
+import { sneakersImg, realestateImg, musicImg } from '@assets/img'
 
 const worksItemsArray = [
     {
         title: 'Sneakers',
-        image: img,
-        tags: ['react', 'redux', 'typescript', 'webpack', 'nodejs', 'mongo'],
+        image: sneakersImg,
+        tags: ['react', 'redux toolkit', 'typescript', 'webpack', 'nodejs', 'mongo'],
     },
     {
         title: 'Realty',
-        image: img,
-        tags: ['react', 'redux', 'typescript', 'webpack', 'nodejs', 'mongo'],
+        image: realestateImg,
+        tags: ['react', 'redux toolkit', 'typescript', 'webpack', 'nodejs', 'postgre'],
     },
     {
         title: 'Music',
-        image: img,
-        tags: ['react', 'redux', 'typescript', 'websocket', 'webpack', 'nodejs', 'mongo'],
+        image: musicImg,
+        tags: ['react', 'redux', 'typescript', 'nodejs', 'mongo'],
     }
 ]
 

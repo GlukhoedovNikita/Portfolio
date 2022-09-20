@@ -1,4 +1,4 @@
-import MyLink from '@components/ui/Link/Link'
+import { MyLink } from '@components/ui'
 
 import styles from './Sidebar.module.scss'
 

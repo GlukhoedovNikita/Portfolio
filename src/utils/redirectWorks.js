@@ -9,7 +9,7 @@ const redirectWorks = (name, type) => {
             if (type === 'github') return 'https://github.com/kendoow/realEstate'
             return ''
         case 'music':
-            if (type === 'github') return ''
+            if (type === 'github') return 'https://github.com/GlukhoedovNikita/Music'
             return ''
         default:
             throw new Error('Error redicrect works')

@@ -1,10 +1,8 @@
 import { motion } from 'framer-motion'
 
-import CommonLayout from '../CommonLayout/CommonLayout'
-import Sidebar from '@components/common/Sidebar/Sidebar'
-import MainContactList from '@components/containers/Main/MainContactList/MainContactList'
-import Planet from '@components/common/Planet/Planet'
-import Stars from '@components/common/Stars/Stars'
+import { CommonLayout } from '@components/layouts'
+import { Planet, Stars, Sidebar } from '@components/common'
+import { MainContactList } from '@components/containers'
 
 import styles from './MainLayout.module.scss'
 
